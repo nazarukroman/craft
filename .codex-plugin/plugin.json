@@ -1,0 +1,27 @@
+{
+  "name": "craft",
+  "version": "1.0.0",
+  "description": "JS/TS engineering judgement: conventions, data structures, design patterns, error handling, testing, Bash, React, plus read-only review workflows.",
+  "author": {
+    "name": "Roman Nazaruk",
+    "email": "nazarukroman.dev@gmail.com"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "react",
+    "testing",
+    "code-review",
+    "bash"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Craft",
+    "shortDescription": "Engineering workflows for JS, TS, React, testing, and Bash.",
+    "longDescription": "Reusable engineering judgment, implementation guidance, testing practices, and review workflows.",
+    "developerName": "Roman Nazaruk",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Help me apply the Craft engineering workflows."
+  }
+}

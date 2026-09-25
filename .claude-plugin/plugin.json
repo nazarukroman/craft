@@ -1,0 +1,16 @@
+{
+  "name": "craft",
+  "description": "JS/TS engineering judgement: conventions, data structures, design patterns, error handling, testing, Bash, React, plus read-only review commands and a hook that blocks destructive shell.",
+  "author": {
+    "name": "Roman Nazaruk",
+    "email": "nazarukroman.dev@gmail.com"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "react",
+    "testing",
+    "code-review",
+    "bash"
+  ]
+}
