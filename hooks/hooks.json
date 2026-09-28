@@ -7,6 +7,19 @@
           {
             "type": "command",
             "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/block-dangerous-bash.sh\""
+          },
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/block-agent-attribution.sh\""
+          }
+        ]
+      },
+      {
+        "matcher": "^mcp__.+__((create|update)_(merge|pull)_request|push_files|create_or_update_file)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/block-agent-attribution.sh\""
           }
         ]
       }

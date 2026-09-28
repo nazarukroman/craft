@@ -10,7 +10,7 @@
     {
       "name": "craft",
       "source": "./",
-      "description": "JS/TS engineering judgement: conventions, data structures, design patterns, error handling, testing, Bash, React, plus read-only review commands and a hook that blocks destructive shell.",
+      "description": "JS/TS engineering judgement: conventions, data structures, design patterns, error handling, testing, Bash, React, plus read-only review commands and hooks that block destructive shell and agent co-author attribution.",
       "category": "engineering",
       "tags": ["javascript", "typescript", "react", "testing", "code-review", "bash"]
     }
